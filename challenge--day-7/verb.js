@@ -1,4 +1,4 @@
-/* function sumnumber() {
+function sumnumber() {
   let sum = 0;
 
   for (let i = 1; i < arguments.length; i++) {
@@ -57,7 +57,7 @@ if (bmi(hieght, weight) <= 18.5) {
   console.log("Overweight");
 } else if (bmi(hieght, weight) > 30) {
   console.log("Obese");
-} */
+}
 //the month import
 
 let season = prompt("please enter your month");
