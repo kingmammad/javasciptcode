@@ -100,3 +100,31 @@ function f(x) {
   return y;
 }
 console.log(`your y is in the ax+by+c=0 is: ${f(x)}`);
+
+function printarray() {
+  let check = "";
+  for (let a = 1; a < arguments.length; a++) {
+    check += arguments[a];
+  }
+  console.log(check);
+}
+printarray(3, "ef", 6, "df");
+// looping from lowerNumber to higherNumber
+for (let i = 1; i <= 100; i++) {
+  let flag = true;
+
+  // looping through 2 to user input number
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) {
+      flag = false;
+      break;
+    }
+  }
+
+  // if number
+  if (flag) {
+    console.log(i);
+  }
+}
+
+//level 2 // 4

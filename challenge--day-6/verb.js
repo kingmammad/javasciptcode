@@ -97,17 +97,17 @@ for (let i = 1; i <= 5; i++) {
   randomarray.push(random);
 }
 console.log(randomarray);
-let cha = "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890asdfghjklzxcvbnmqwertyuiop";
-let char = [];
+let cha = "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890sdfaghjklzxcvbnmqwertyuiop";
+
 let charsum = "";
-let lengthchar = Math.trunc(Math.random() * 50) + 1;
+let lengthchar = Math.trunc(Math.random() * 30) + 1;
 for (let i = 1; i <= lengthchar; i++) {
   let randomnumber = Math.trunc(Math.random() * cha.length) + 1;
   let randomcha = cha.charAt(randomnumber);
-  char.push(randomcha);
+
   charsum += randomcha;
 }
-console.log(...char);
+
 console.log(charsum);
 let color = [];
 for (let i = 0; i < 3; i++) {
@@ -116,3 +116,48 @@ for (let i = 0; i < 3; i++) {
   color.push(randomcolor);
 }
 console.log(`rgb(${color[0]},${color[1]},${color[2]})`);
+const hexachar = "023456789ABCDEF";
+let char = "#";
+for (let i = 1; i < 6; i++) {
+  let randomchar = Math.trunc(Math.random() * 16);
+  char += hexachar[randomchar];
+}
+console.log(char);
+let a = [23, 4, 5, 53, 35, 3423];
+// level 2// {4}
+let newarray = [];
+for (let i = 0; i < country.length; i++) {
+  newarray.push(country[i].toUpperCase());
+}
+console.log(newarray);
+
+//----5----//
+let lengtharray = [];
+for (let i = 0; i < country.length; i++) {
+  lengtharray.push(country[i].length);
+}
+
+console.log(lengtharray);
+//----6----//
+
+let arraytotal = [];
+
+for (let i = 0; i < country.length; i++) {
+  let af = [];
+  arraytotal.push(af);
+
+  af.push(
+    country[i],
+    country[i].substring(0, 3).toUpperCase(),
+    country[i].length
+  );
+}
+console.log(arraytotal);
+//---7---//
+let land = [];
+for (let a = 0; a < country.length; i++) {
+  if (country[a].includes("land")) {
+    land.push(country[a]);
+  }
+}
+console.log(land);
