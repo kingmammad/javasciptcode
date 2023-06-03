@@ -44,13 +44,13 @@ do {
   i++;
 } while (i <= 6);
 
-let number;
-let name = prompt("please enter your name");
-console.log(name.length);
-let result =
-  name.length > 7
-    ? console.log("your name is long")
-    : console.log("your name is short");
+// let number;
+// let name = prompt("please enter your name");
+// console.log(name.length);
+// let result =
+//   name.length > 7
+//     ? console.log("your name is long")
+//     : console.log("your name is short");
 
 let hash = "";
 for (let i = 0; i <= 7; i++) {
@@ -138,7 +138,7 @@ for (let i = 0; i < country.length; i++) {
 }
 
 console.log(lengtharray);
-//----6----//
+// //----6----//
 
 let arraytotal = [];
 
@@ -161,3 +161,253 @@ for (let a = 0; a < country.length; i++) {
   }
 }
 console.log(land);
+//---7---//
+let arraytotalweb = [];
+
+for (let i = 0; i < webtech.length; i++) {
+  let web = [];
+  arraytotal.push(web);
+
+  af.push(
+    webtech[i],
+
+    webtech[i].length
+  );
+}
+//---15---//
+/*let fruit = ["banana", "orange", "mango", "lemon"];
+let fruitrevers = [];
+for (let i = fruit.length; i >= 0; i--) {
+  fruitrevers.push(fruit[i]);
+  console.log(i);
+}
+console.log(fruit);
+console.log(fruitrevers);*/
+
+//---16---//
+// const fullStack = [
+//   ["HTML", "CSS", "JS", "React"],
+//   ["Node", "Express", "MongoDB"],
+// ];
+// const full = [];
+// for (let i = 0; i <= fullStack; i++) {
+//   full.push(fullStack[i]);
+// }
+// const fll = [];
+// for (let i = 0; i <= full.length; i++) {
+//   fll.push(full[i]);
+// }
+// console.log(full);
+// console.log(fll);
+// for (let i = 1; i <= 100; i++) {
+//   let flag = true;
+
+//   // looping through 2 to user input number
+//   for (let j = 2; j < i; j++) {
+//     if (i % j == 0) {
+//       flag = false;
+//       break;
+//     }
+//   }
+
+//   // if number
+//   if (flag) {
+//     console.log(i);
+//   }
+// }
+/*const countries = [
+  "Afghanistan",
+  "Albania",
+  "Algeria",
+  "Andorra",
+  "Angola",
+  "Antigua and Barbuda",
+  "Argentina",
+  "Armenia",
+  "Australia",
+  "Austria",
+  "Azerbaijan",
+  "Bahamas",
+  "Bahrain",
+  "Bangladesh",
+  "Barbados",
+  "Belarus",
+  "Belgium",
+  "Belize",
+  "Benin",
+  "Bhutan",
+  "Bolivia",
+  "Bosnia and Herzegovina",
+  "Botswana",
+  "Brazil",
+  "Brunei",
+  "Bulgaria",
+  "Burkina Faso",
+  "Burundi",
+  "Cambodia",
+  "Cameroon",
+  "Canada",
+  "Cape Verde",
+  "Central African Republic",
+  "Chad",
+  "Chile",
+  "China",
+  "Colombi",
+  "Comoros",
+  "Congo (Brazzaville)",
+  "Congo",
+  "Costa Rica",
+  "Cote d'Ivoire",
+  "Croatia",
+  "Cuba",
+  "Cyprus",
+  "Czech Republic",
+  "Denmark",
+  "Djibouti",
+  "Dominica",
+  "Dominican Republic",
+  "East Timor (Timor Timur)",
+  "Ecuador",
+  "Egypt",
+  "El Salvador",
+  "Equatorial Guinea",
+  "Eritrea",
+  "Estonia",
+  "Ethiopia",
+  "Fiji",
+  "Finland",
+  "France",
+  "Gabon",
+  "Gambia, The",
+  "Georgia",
+  "Germany",
+  "Ghana",
+  "Greece",
+  "Grenada",
+  "Guatemala",
+  "Guinea",
+  "Guinea-Bissau",
+  "Guyana",
+  "Haiti",
+  "Honduras",
+  "Hungary",
+  "Iceland",
+  "India",
+  "Indonesia",
+  "Iran",
+  "Iraq",
+  "Ireland",
+  "Israel",
+  "Italy",
+  "Jamaica",
+  "Japan",
+  "Jordan",
+  "Kazakhstan",
+  "Kenya",
+  "Kiribati",
+  "Korea, North",
+  "Korea, South",
+  "Kuwait",
+  "Kyrgyzstan",
+  "Laos",
+  "Latvia",
+  "Lebanon",
+  "Lesotho",
+  "Liberia",
+  "Libya",
+  "Liechtenstein",
+  "Lithuania",
+  "Luxembourg",
+  "Macedonia",
+  "Madagascar",
+  "Malawi",
+  "Malaysia",
+  "Maldives",
+  "Mali",
+  "Malta",
+  "Marshall Islands",
+  "Mauritania",
+  "Mauritius",
+  "Mexico",
+  "Micronesia",
+  "Moldova",
+  "Monaco",
+  "Mongolia",
+  "Morocco",
+  "Mozambique",
+  "Myanmar",
+  "Namibia",
+  "Nauru",
+  "Nepal",
+  "Netherlands",
+  "New Zealand",
+  "Nicaragua",
+  "Niger",
+  "Nigeria",
+  "Norway",
+  "Oman",
+  "Pakistan",
+  "Palau",
+  "Panama",
+  "Papua New Guinea",
+  "Paraguay",
+  "Peru",
+  "Philippines",
+  "Poland",
+  "Portugal",
+  "Qatar",
+  "Romania",
+  "Russia",
+  "Rwanda",
+  "Saint Kitts and Nevis",
+  "Saint Lucia",
+  "Saint Vincent",
+  "Samoa",
+  "San Marino",
+  "Sao Tome and Principe",
+  "Saudi Arabia",
+  "Senegal",
+  "Serbia and Montenegro",
+  "Seychelles",
+  "Sierra Leone",
+  "Singapore",
+  "Slovakia",
+  "Slovenia",
+  "Solomon Islands",
+  "Somalia",
+  "South Africa",
+  "Spain",
+  "Sri Lanka",
+  "Sudan",
+  "Suriname",
+  "Swaziland",
+  "Sweden",
+  "Switzerland",
+  "Syria",
+  "Taiwan",
+  "Tajikistan",
+  "Tanzania",
+  "Thailand",
+  "Togo",
+  "Tonga",
+  "Trinidad and Tobago",
+  "Tunisia",
+  "Turkey",
+  "Turkmenistan",
+  "Tuvalu",
+  "Uganda",
+  "Ukraine",
+  "United Arab Emirates",
+  "United Kingdom",
+  "United States",
+  "Uruguay",
+  "Uzbekistan",
+  "Vanuatu",
+  "Vatican City",
+  "Venezuela",
+  "Vietnam",
+  "Yemen",
+  "Zambia",
+  "Zimbabwe",
+];
+console.log(countries.sort());*/

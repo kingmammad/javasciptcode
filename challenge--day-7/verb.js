@@ -103,28 +103,57 @@ console.log(`your y is in the ax+by+c=0 is: ${f(x)}`);
 
 function printarray() {
   let check = "";
-  for (let a = 1; a < arguments.length; a++) {
+  for (let a = 0; a < arguments.length; a++) {
     check += arguments[a];
   }
   console.log(check);
 }
 printarray(3, "ef", 6, "df");
-// looping from lowerNumber to higherNumber
-for (let i = 1; i <= 100; i++) {
-  let flag = true;
 
-  // looping through 2 to user input number
-  for (let j = 2; j < i; j++) {
-    if (i % j == 0) {
-      flag = false;
-      break;
-    }
-  }
-
-  // if number
-  if (flag) {
-    console.log(i);
+function solve(a, b, c) {
+  let x1 = ((-b + Math.sqrt(b * b - 4 * a * c)) / 2) * a;
+  let x2 = ((-b - Math.sqrt(b * b - 4 * a * c)) / 2) * a;
+  if (b * b - 4 * a * c > 0) {
+    console.log(x1);
+    console.log(x2);
+  } else if (b * b - 4 * a * c == 0) {
+    console.log(-b / (2 * a));
+  } else {
+    console.log("your candition have not solve");
   }
 }
+solve(1, 4, 4);
 
-//level 2 // 4
+//4th
+function showdatetime() {
+  let time = new Date();
+  console.log(
+    `${time.getDay()}/${time.getMonth()}/${time.getFullYear()}  ${time.getHours()}:${time.getMinutes()} `
+  );
+}
+showdatetime();
+//5th
+function swapvalue(x, y) {
+  console.log(`x=>${x},  y=>${y}`);
+}
+swapvalue(4, 6);
+
+//6th
+let promt = prompt("please enter your name to reverse");
+function reverse(input) {
+  let rev = "";
+  for (let i = input.length - 1; i >= 0; i--) {
+    rev += input[i];
+  }
+  console.log(rev);
+}
+reverse(promt);
+//7th
+function reversarray(arr) {
+  let cff = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    cff.push(arr[i]);
+  }
+  console.log(cff);
+}
+reversarray([3, 4, 5, 6, 7, 8]);
