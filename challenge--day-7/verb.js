@@ -181,4 +181,12 @@ function oddsandeven(get) {
   console.log(`the number of odds are ${odds.length}`);
 }
 oddsandeven(100);
-//
+//14th
+function sum() {
+  let sumnumber = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    sumnumber += arguments[i];
+  }
+  console.log(sumnumber);
+}
+sum(2, 4, 5, 2);
