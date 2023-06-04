@@ -1,4 +1,4 @@
-function sumnumber() {
+/*function sumnumber() {
   let sum = 0;
 
   for (let i = 1; i < arguments.length; i++) {
@@ -49,7 +49,7 @@ function bmi(hieght1, weight2) {
 
   return bmii;
 }
-if (bmi(hieght, weight) <= 18.5) {
+if (bmi(hieght, weight) < 18.5) {
   console.log("underwight");
 } else if (bmi(hieght, weight) > 18.5 && bmi(hieght, weight) <= 25) {
   console.log("normal weight");
@@ -63,27 +63,27 @@ if (bmi(hieght, weight) <= 18.5) {
 let season = prompt("please enter your month");
 function checkseason(month) {
   if (
-    season.includes("jen") ||
-    season.includes("feb") ||
-    season.includes("mar")
+    month.includes("jen") ||
+    month.includes("feb") ||
+    month.includes("mar")
   ) {
     console.log("Autumn");
   } else if (
-    season.includes("apr") ||
-    season.includes("may") ||
-    season.includes("jun")
+    month.includes("apr") ||
+    month.includes("may") ||
+    month.includes("jun")
   ) {
     console.log("summer");
   } else if (
-    season.includes("jen") ||
-    season.includes("jul") ||
-    season.includes("aug")
+    month.includes("jen") ||
+    month.includes("jul") ||
+    month.includes("aug")
   ) {
-    console.log("Sep");
+    console.log("spring");
   } else if (
-    season.includes("oct") ||
-    season.includes("nev") ||
-    season.includes("dec")
+    month.includes("oct") ||
+    month.includes("nev") ||
+    month.includes("dec")
   ) {
     console.log("winter");
   } else {
@@ -148,7 +148,7 @@ function reverse(input) {
   console.log(rev);
 }
 reverse(promt);
-//7th
+//6th
 function reversarray(arr) {
   let cff = [];
   for (let i = arr.length - 1; i >= 0; i--) {
@@ -157,3 +157,28 @@ function reversarray(arr) {
   console.log(cff);
 }
 reversarray([3, 4, 5, 6, 7, 8]);
+//7th
+function capitalizm(cap) {
+  let newarr = "";
+  for (let i = 0; i <= cap.length - 1; i++) {
+    newarr += cap[i];
+  }
+  console.log(newarr.toString().toUpperCase());
+}
+capitalizm("hi my name is mohammad"); */
+//18 9 10 11 12 13
+function oddsandeven(get) {
+  let even = [];
+  let odds = [];
+  for (let i = 0; i <= get; i++) {
+    if (i % 2 == 0) {
+      even.push(i);
+    } else {
+      odds.push(i);
+    }
+  }
+  console.log(`the number of even are ${even.length}`);
+  console.log(`the number of odds are ${odds.length}`);
+}
+oddsandeven(100);
+//
