@@ -122,7 +122,7 @@ function solve(a, b, c) {
     console.log("your candition have not solve");
   }
 }
-solve(1, 4, 4);
+solve(1, 4, 4);                                             
 
 //4th
 function showdatetime() {
@@ -190,3 +190,14 @@ function sum() {
   console.log(sumnumber);
 }
 sum(2, 4, 5, 2);
+// 25th
+function randomip() {
+  let random1 = [];
+  for (let i = 0; i <= 4; i++) {
+    let random = Math.trunc(Math.random() * 250) + 1;
+    random1.push(random);
+  }
+  console.log(random1.toString());
+}
+randomip();
+//26th complet
