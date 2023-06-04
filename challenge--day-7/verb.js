@@ -200,4 +200,4 @@ function randomip() {
   console.log(random1.toString());
 }
 randomip();
-//26th complet
+//26
