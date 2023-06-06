@@ -201,3 +201,23 @@ function randomip() {
 }
 randomip();
 //26
+// level  3
+let number = Number(prompt("how much you want nuber id?"));
+let numchracter = Number(prompt("how much you want character in id?"));
+
+function generateidbyuser(input1, input2) {
+  let char = "AZXCVBNMSDFGHJKLQWERTYUIOP123456789";
+
+  for (let i = 1; i <= input1; i++) {
+    let save = "";
+    char;
+
+    for (let i = 1; i <= input2; i++) {
+      let random = Math.trunc(Math.random() * char.length + 1);
+      save += char.charAt(random);
+    }
+    console.log(save);
+  }
+}
+
+generateidbyuser(number, numchracter);
