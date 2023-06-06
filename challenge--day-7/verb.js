@@ -221,3 +221,14 @@ function generateidbyuser(input1, input2) {
 }
 
 generateidbyuser(number, numchracter);
+//2th
+function randomrgb() {
+  let color = [];
+  for (let i = 0; i <= 3; i++) {
+    randomnumber = Math.trunc(Math.random() * 250) + 1;
+    color.push(randomnumber);
+  }
+  console.log(`rgb(${color[0]},${color[1]},${color[2]})`);
+}
+randomrgb();
+//3th
