@@ -232,3 +232,16 @@ function randomrgb() {
 }
 randomrgb();
 //3th
+function hexacolor() {
+  let color = "#";
+
+  let hexa = "asdfghjklqwertyuiopzxcvbnm123456789";
+  for (let i = 0; i <= 6; i++) {
+    let randomnumber = Math.trunc(Math.random() * hexa.length) + 1;
+    color += hexa.charAt(randomnumber);
+  }
+  let arraycolor = [];
+  arraycolor.push(color);
+  console.log(arraycolor);
+}
+hexacolor();
