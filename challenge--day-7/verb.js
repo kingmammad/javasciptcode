@@ -1,4 +1,4 @@
-/*function sumnumber() {
+function sumnumber() {
   let sum = 0;
 
   for (let i = 1; i < arguments.length; i++) {
@@ -62,11 +62,7 @@ if (bmi(hieght, weight) < 18.5) {
 
 let season = prompt("please enter your month");
 function checkseason(month) {
-  if (
-    month.includes("jen") ||
-    month.includes("feb") ||
-    month.includes("mar")
-  ) {
+  if (month.includes("jen") || month.includes("feb") || month.includes("mar")) {
     console.log("Autumn");
   } else if (
     month.includes("apr") ||
@@ -122,7 +118,7 @@ function solve(a, b, c) {
     console.log("your candition have not solve");
   }
 }
-solve(1, 4, 4);                                             
+solve(1, 4, 4);
 
 //4th
 function showdatetime() {
@@ -165,7 +161,7 @@ function capitalizm(cap) {
   }
   console.log(newarr.toString().toUpperCase());
 }
-capitalizm("hi my name is mohammad"); */
+capitalizm("hi my name is mohammad");
 //18 9 10 11 12 13
 function oddsandeven(get) {
   let even = [];
@@ -266,3 +262,4 @@ function hexToRGB(hex) {
 }
 
 hexToRGB("#297F3A");
+// 5th
