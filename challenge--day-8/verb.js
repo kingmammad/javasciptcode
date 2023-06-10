@@ -156,10 +156,32 @@ console.log(savepoint);
 //3th
 let mernstack = [];
 for (let i = 1; i < objectar.length; i++) {
-     if (objectar[i][1].skills.includes('MongoDB'&&'Express'&&'React'&&'Node')  ) {
+  if (
+    objectar[i][1].skills.includes("MongoDB" && "Express" && "React" && "Node")
+  ) {
     mernstack.push(objectar[i]);
   }
 }
 console.log(mernstack);
 // == "MongoDB" && "Express" && "React" && "Node"
-//
+//4th
+objectar.push(['mohammad', {
+  
+  email: "kli868590@gmail.com",
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+
+    "vvv",
+    "ll",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node",
+  ],
+  age: 20,
+  isLoggedIn: false,
+  points: 40,
+}]);
+console.log(objectar)
