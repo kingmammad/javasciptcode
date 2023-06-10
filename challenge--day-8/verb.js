@@ -118,6 +118,9 @@ const users = {
       "HTML",
       "CSS",
       "JavaScript",
+
+      "vvv",
+      "ll",
       "MongoDB",
       "Express",
       "React",
@@ -128,11 +131,10 @@ const users = {
     points: 40,
   },
 };
-console.log(users)
+console.log(users);
 let objectar = Object.entries(users);
 console.log(objectar);
 let max = objectar[0];
-
 
 for (let i = 1; i < objectar.length; i++) {
   if (max[1].skills.length < objectar[i][1].skills.length) {
@@ -140,5 +142,15 @@ for (let i = 1; i < objectar.length; i++) {
   }
 }
 
-console.log(max)
+console.log(max);
 //
+let savepoint = [];
+let point = objectar[0];
+for (let i = 1; i < objectar.length; i++) {
+  if (objectar[i][1].points == 50) {
+    savepoint.push(objectar[i]);
+  }
+}
+
+console.log(savepoint);
+//3th

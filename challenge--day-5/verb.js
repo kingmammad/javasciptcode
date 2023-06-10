@@ -61,3 +61,5 @@ console.log(itcompanies.slice(0, 3));
 console.log(itcompanies.slice(4, 7));
 
 console.log(itcompanies.slice(3, 4));
+let arrayss = [1, 4, 5, 6, 67, 10, 7];
+console.log(arrayss.slice(2, 5));
