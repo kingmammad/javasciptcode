@@ -165,26 +165,31 @@ for (let i = 1; i < objectar.length; i++) {
 console.log(mernstack);
 // == "MongoDB" && "Express" && "React" && "Node"
 //4th
-objectar.push(['mohammad', {
-  
-  email: "kli868590@gmail.com",
-  skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
+objectar.push([
+  "mohammad",
+  {
+    email: "kli868590@gmail.com",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
 
-    "vvv",
-    "ll",
-    "MongoDB",
-    "Express",
-    "React",
-    "Node",
-  ],
-  age: 20,
-  isLoggedIn: false,
-  points: 40,
-}]);
-console.log(objectar)
+      "vvv",
+      "ll",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+    ],
+    age: 20,
+    isLoggedIn: false,
+    points: 40,
+  },
+]);
+console.log(objectar);
 //5th
-let keyss=Object.keys(users);
-console.log(keyss)
+let keyss = Object.keys(users);
+console.log(keyss);
+//6th
+let valuess = Object.values(users);
+console.log(valuess);
