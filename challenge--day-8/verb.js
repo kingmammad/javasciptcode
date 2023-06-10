@@ -185,3 +185,6 @@ objectar.push(['mohammad', {
   points: 40,
 }]);
 console.log(objectar)
+//5th
+let keyss=Object.keys(users);
+console.log(keyss)
