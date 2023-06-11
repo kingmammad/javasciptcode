@@ -194,45 +194,30 @@ console.log(keyss);
 let valuess = Object.values(users);
 console.log(valuess);
 //==========================================level3================================================//
-//1th 
-const personaccoun = {
-  firstname: "mohammmad",
-  lastName: "amiri",
-  incomes: [34, 56, 37, 26, 87],
-  expenses: [32, 65, 3, 6, 7],
-  totalincome: function () {
-    let totalincomee = 0;
-    for (let ff of this.incomes) {
-      totalincomee += ff;
-    }
-    return totalincomee;
-  },
-  totalexpenses: function () {
-    let totalincomee = 0;
-    for (let ff of this.expenses) {
-      totalincomee += ff;
-    }
-    return totalincomee;
-  },
-  accountinfo: function () {
-    return `the account name is${this.firstname} and last name is ${this.lastName} 
-    your  blance is ${this.accountblance()} your income is ${this.totalincome()}
-    and your expenses is ${this.totalexpenses()}`;
-  },
-  addincome: function (income) {
-    return this.incomes.push(income);
-  },
-  addexpenses: function (expense) {
-    return this.expenses.push(expense);
-  },
-  accountblance: function () {
-    return this.totalincome() - this.totalexpenses();
-  },
-};
-console.log(personaccoun.addexpenses(23));
-console.log(personaccoun);
-console.log(personaccoun.totalincome());
-console.log(personaccoun.totalexpenses());
-console.log(personaccoun.accountblance());
-console.log(personaccoun.accountinfo());
+
+const personaccoun={
+firstname:'mohammmad',
+lastName:'amiri',
+incomes:{},
+expenses:{},
+totalincome:function(){
+
+},
+totalexpenses:function(){
+
+},
+accountinfo:function(){
+
+
+},
+addincome:function(sours,value){
+
+},
+addexpenses:function(sours,value){
+
+},
+accountblance:function(){
+
+}
+}
 
