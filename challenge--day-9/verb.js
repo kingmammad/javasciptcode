@@ -139,3 +139,6 @@ let s=prameter.reduce((elem,ele)=>elem+' '+ele);
 console.log(s)
 }
 getStringlist(countries);
+//17th
+const sumenumberone=numbers__leveltwo.reduce((elme,ele)=>elme+ele);
+console.log(sumenumberone)
