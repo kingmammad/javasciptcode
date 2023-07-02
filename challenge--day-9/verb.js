@@ -131,4 +131,5 @@ console.log(filtertwo)
 let filterfour=countries.filter(ele=>ele.startsWith('E'));
 console.log(filterfour);
 //15th
-
+let filtervalue=products.filter(eleme=>typeof eleme.price == typeof 4)
+console.log(filtervalue)
