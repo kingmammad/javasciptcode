@@ -133,3 +133,9 @@ console.log(filterfour);
 //15th
 let filtervalue=products.filter(eleme=>typeof eleme.price == typeof 4)
 console.log(filtervalue)
+//16th
+function getStringlist (prameter){
+let s=prameter.reduce((elem,ele)=>elem+' '+ele);
+console.log(s)
+}
+getStringlist(countries);
