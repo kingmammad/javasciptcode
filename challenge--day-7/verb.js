@@ -263,3 +263,10 @@ function hexToRGB(hex) {
 
 hexToRGB("#297F3A");
 // 5th
+let as = prompt("hello world");
+function addarry(add) {
+  let additem = ["df", "gf", "sf"];
+  additem.push(add);
+  console.log(additem);
+}
+addarry(as);
