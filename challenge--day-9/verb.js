@@ -186,3 +186,6 @@ console.log(countriesland);
 //23
 let coun=countries.find(ele=>ele.length==6)
 console.log(coun)
+//24th
+let coun2=countries.findIndex(ele=>ele.length==6)
+console.log(coun2)
