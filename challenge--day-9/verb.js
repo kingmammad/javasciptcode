@@ -196,6 +196,7 @@ console.log(coun3);
 let coun4 = countries.findIndex((ele) => ele.includes("Russia"));
 console.log(coun4);
 //======================================level 2 ==========================//
-
-
+//1th
+let total=products.map(ele=>ele.price).filter(ele=>typeof ele== typeof 8).reduce((ele,elem)=> ele+elem,0)
+console.log(total)
 
