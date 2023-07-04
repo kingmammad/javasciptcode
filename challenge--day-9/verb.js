@@ -172,15 +172,17 @@ console.log(everyu);
 const someyu = h.every((elme) => elme % 2 == 0);
 console.log(someyu);
 // 20th
-let countrieslength=countries.some(elme=>elme.length>=7&&elme.includes('land'))
-console.log(countrieslength)
+let countrieslength = countries.some(
+  (elme) => elme.length >= 7 && elme.includes("land")
+);
+console.log(countrieslength);
 //21th
-let countriesland=countries.every(elme=>elme.includes('land'));
-console.log(countriesland)
+let countriesland = countries.every((elme) => elme.includes("land"));
+console.log(countriesland);
 //22th
 //فرق بین find این اس ت اولین ایلمنت که شرط درست باشد را برگشت می دهد ولی findindex فقد index المنت را که شرط درست باشد را بر می گراند
 //والسلام نامه تمام
 
-
-
-//
+//23
+let coun=countries.find(ele=>ele.length==6)
+console.log(coun)
