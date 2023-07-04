@@ -171,3 +171,6 @@ const everyu = h.some((elem) => elem % 2 == 0);
 console.log(everyu);
 const someyu = h.every((elme) => elme % 2 == 0);
 console.log(someyu);
+// 20th
+let countrieslength=countries.some(elme=>elme.length>=7)
+console.log(countrieslength)
