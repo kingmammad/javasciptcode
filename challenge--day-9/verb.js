@@ -177,3 +177,10 @@ console.log(countrieslength)
 //21th
 let countriesland=countries.every(elme=>elme.includes('land'));
 console.log(countriesland)
+//22th
+//فرق بین find این اس ت اولین ایلمنت که شرط درست باشد را برگشت می دهد ولی findindex فقد index المنت را که شرط درست باشد را بر می گراند
+//والسلام نامه تمام
+
+
+
+//
