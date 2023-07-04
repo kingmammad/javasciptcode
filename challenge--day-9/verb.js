@@ -189,3 +189,6 @@ console.log(coun)
 //24th
 let coun2=countries.findIndex(ele=>ele.length==6)
 console.log(coun2)
+//25th
+let coun3=countries.findIndex(ele=>ele.includes('Norway'))
+console.log(coun3)
