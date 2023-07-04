@@ -184,11 +184,18 @@ console.log(countriesland);
 //والسلام نامه تمام
 
 //23
-let coun=countries.find(ele=>ele.length==6)
-console.log(coun)
+let coun = countries.find((ele) => ele.length == 6);
+console.log(coun);
 //24th
-let coun2=countries.findIndex(ele=>ele.length==6)
-console.log(coun2)
+let coun2 = countries.findIndex((ele) => ele.length == 6);
+console.log(coun2);
 //25th
-let coun3=countries.findIndex(ele=>ele.includes('Norway'))
-console.log(coun3)
+let coun3 = countries.findIndex((ele) => ele.includes("Norway"));
+console.log(coun3);
+//26th
+let coun4 = countries.findIndex((ele) => ele.includes("Russia"));
+console.log(coun4);
+//======================================level 2 ==========================//
+
+
+
