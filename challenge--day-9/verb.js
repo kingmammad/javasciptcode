@@ -142,3 +142,19 @@ getStringlist(countries);
 //17th
 const sumenumberone=numbers__leveltwo.reduce((elme,ele)=>elme+ele);
 console.log(sumenumberone)
+//18th
+const countriescentence = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland'];
+
+const sentence = countriescentence.reduce((accumulator, country, index) => {
+  if (index === 0) {
+    return country;
+  } else if (index === countriescentence.length - 1) {
+    return accumulator + ', and ' + country;
+  } else {
+    return accumulator + ', ' + country;
+  }
+});
+
+const finalSentence = sentence + ' are north European countries.';
+console.log(finalSentence);
+//10th
