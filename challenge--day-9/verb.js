@@ -172,5 +172,8 @@ console.log(everyu);
 const someyu = h.every((elme) => elme % 2 == 0);
 console.log(someyu);
 // 20th
-let countrieslength=countries.some(elme=>elme.length>=7)
+let countrieslength=countries.some(elme=>elme.length>=7&&elme.includes('land'))
 console.log(countrieslength)
+//21th
+let countriesland=countries.every(elme=>elme.includes('land'));
+console.log(countriesland)
