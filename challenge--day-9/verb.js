@@ -122,39 +122,52 @@ console.log(pruduct);
 let filterone = countries.filter((elem) => elem.includes("land"));
 console.log(filterone);
 //12th
-let filtertwo=countries.filter(elemnt=>elemnt.length==6)
-console.log(filtertwo)
+let filtertwo = countries.filter((elemnt) => elemnt.length == 6);
+console.log(filtertwo);
 //13th
-let filterthree=countries.filter(elemnt=>elemnt.length>=6)
-console.log(filtertwo)
+let filterthree = countries.filter((elemnt) => elemnt.length >= 6);
+console.log(filtertwo);
 //14th
-let filterfour=countries.filter(ele=>ele.startsWith('E'));
+let filterfour = countries.filter((ele) => ele.startsWith("E"));
 console.log(filterfour);
 //15th
-let filtervalue=products.filter(eleme=>typeof eleme.price == typeof 4)
-console.log(filtervalue)
+let filtervalue = products.filter((eleme) => typeof eleme.price == typeof 4);
+console.log(filtervalue);
 //16th
-function getStringlist (prameter){
-let s=prameter.reduce((elem,ele)=>elem+' '+ele);
-console.log(s)
+function getStringlist(prameter) {
+  let s = prameter.reduce((elem, ele) => elem + " " + ele);
+  console.log(s);
 }
 getStringlist(countries);
 //17th
-const sumenumberone=numbers__leveltwo.reduce((elme,ele)=>elme+ele);
-console.log(sumenumberone)
+const sumenumberone = numbers__leveltwo.reduce((elme, ele) => elme + ele);
+console.log(sumenumberone);
 //18th
-const countriescentence = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland'];
+const countriescentence = [
+  "Estonia",
+  "Finland",
+  "Sweden",
+  "Denmark",
+  "Norway",
+  "Iceland",
+];
 
 const sentence = countriescentence.reduce((accumulator, country, index) => {
   if (index === 0) {
     return country;
   } else if (index === countriescentence.length - 1) {
-    return accumulator + ', and ' + country;
+    return accumulator + ", and " + country;
   } else {
-    return accumulator + ', ' + country;
+    return accumulator + ", " + country;
   }
 });
 
-const finalSentence = sentence + ' are north European countries.';
+const finalSentence = sentence + " are north European countries.";
 console.log(finalSentence);
-//10th
+//19th
+let h = [3, 5, 6, 4, 2];
+
+const everyu = h.some((elem) => elem % 2 == 0);
+console.log(everyu);
+const someyu = h.every((elme) => elme % 2 == 0);
+console.log(someyu);
