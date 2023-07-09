@@ -50,3 +50,10 @@ let des=a.filter(elem=> B.has(elem))
 let dd=new Set(des)
 console.log(dd)
 //3th
+let count=countries.map(ele=>ele.languages).flat()
+
+
+let ma=new Set(count)
+console.log(ma.size)
+// let sum=ma.reduce((ele,elem)=> ele+elem.length,0)
+// console.log(sum)
