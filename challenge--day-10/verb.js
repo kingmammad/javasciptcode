@@ -1,6 +1,6 @@
 const a = [4, 5, 8, 9];
 const b = [3, 4, 5, 7];
-const countries = ["Finland", "Sweden", "Norway"];
+
 //1th
 let empty = new Set();
 console.log(empty);
@@ -23,3 +23,19 @@ console.log(newarr)
 for (elem of newarr){
   console.log(elem)
 };
+//6th
+let countrie = [
+  ['Finland', 'Helsinki'],
+  ['Sweden', 'Stockholm'],
+  ['Norway', 'Oslo'],
+]
+console.log(countrie)
+let map=new Map(countrie);
+console.log(map)
+for(elem of countrie){
+ for (let a=0; a<=elem.length-1;a++){
+  map.set(elem[a], elem[a].length)
+ }
+}
+
+console.log(map)
