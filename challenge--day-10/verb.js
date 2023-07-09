@@ -37,5 +37,10 @@ for(elem of countrie){
   map.set(elem[a], elem[a].length)
  }
 }
+console.log(map);
+//===================================level 2
+//1TH
+let c = [...a, ...b]
+let C = new Set(c)
 
-console.log(map)
+console.log(C)
