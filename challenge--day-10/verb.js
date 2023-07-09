@@ -42,5 +42,11 @@ console.log(map);
 //1TH
 let c = [...a, ...b]
 let C = new Set(c)
-
 console.log(C)
+//2th
+let A=new Set(a);
+let B=new Set(b)
+let des=a.filter(elem=> B.has(elem))
+let dd=new Set(des)
+console.log(dd)
+//
