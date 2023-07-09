@@ -203,4 +203,5 @@ console.log(`your total price is ${total}`);
 //2th
 let total2 = products.reduce((acc,cur) => (typeof cur.price === 'number') ? acc + cur.price : acc, 0);
 console.log(total2)
+//3th
 
