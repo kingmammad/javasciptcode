@@ -11,3 +11,6 @@ for (let a = 0; a <= 10; a++) {
 }
 let setloop = new Set(lop);
 console.log(setloop);
+//3th
+setloop.delete(3)
+console.log(setloop)
