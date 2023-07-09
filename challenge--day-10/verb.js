@@ -16,3 +16,10 @@ setloop.delete(3)
 console.log(setloop)
 //4th
 setloop.clear()
+//5th
+const arr=['akbar','shoja','asghar','haidar','ali'];
+let newarr=new Set(arr);
+console.log(newarr)
+for (elem of newarr){
+  console.log(elem)
+};
