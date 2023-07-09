@@ -14,3 +14,5 @@ console.log(setloop);
 //3th
 setloop.delete(3)
 console.log(setloop)
+//4th
+setloop.clear()
