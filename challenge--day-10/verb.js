@@ -49,4 +49,4 @@ let B=new Set(b)
 let des=a.filter(elem=> B.has(elem))
 let dd=new Set(des)
 console.log(dd)
-//
+//3th
